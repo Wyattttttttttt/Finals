@@ -144,3 +144,52 @@ footer a:visited {
 footer a:hover {
     text-decoration: underline;
 }
+
+
+
+
+/* Table css
+
+
+
+/* Table Cell Styles */
+table.schedule th, table.schedule td {
+	border: 1px solid black;
+	padding: 1px;
+	vertical-align: top;
+}
+
+
+/* Table Caption Styles */
+table.schedule caption {
+	caption-side: bottom;
+	text-align: right;
+}
+
+
+/* Row Group Styles */
+
+table.schedule thead  {
+	background: black;
+	color: white;
+}
+
+table.schedule tfoot {
+	background: black;
+	color: white;
+}
+
+table.schedule thead tr {
+	height: 30px;
+}
+
+table.schedule tbody tr {
+	height: 40px;
+}
+
+/* Column Group Styles */
+
+col#firstCol {
+	background: rgb(150, 111, 81);
+}
+
